@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pokemon Image Generator</title>
+        <script src="./index.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="center">
+            <h1 id="heading">
+                <span
+                    ><img
+                        id="pokemon-logo"
+                        src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"
+                        alt=""
+                /></span>
+                Image Generator
+            </h1>
+        </div>
+        <div class="center">
+            <p id="pokemon-name"></p>
+        </div>
+        <div id="pokemon-image-div" class="center">
+            <img id="pokemon-image" src="" alt="" lowsrc='src/images/circular_progress_indicator_new.gif'/>
+        </div>
+        <div class="center">
+            <button id="next-pokemon">
+                <span id="next-pokemon-text">New Pokemon</span>
+            </button>
+        </div>
+    </body>
+</html>
