@@ -11,8 +11,13 @@ body {
 }
 
 #pokemon-image-div {
-    height: 475px;
+    max-height: 475px;
     padding: 10px 10px 10px 10px;
+}
+
+#pokemon-image{
+    width: 100%;
+    max-width: 475px;
 }
 
 .center {
