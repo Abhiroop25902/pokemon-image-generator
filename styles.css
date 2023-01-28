@@ -15,7 +15,7 @@ body {
     padding: 10px 10px 10px 10px;
 }
 
-#pokemon-image{
+#pokemon-image {
     width: 100%;
     max-width: 475px;
 }
@@ -42,6 +42,7 @@ body {
     border: 2px solid #9f41ff;
     background-color: #9f41ff;
     transition: all 0.5s ease-in-out;
+    color: #202124;
 }
 
 #next-pokemon:hover {
